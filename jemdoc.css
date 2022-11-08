@@ -1,3 +1,14 @@
+.flexbox{
+    /* 给父元素添加下面这两个属性，即可让子元素的图片垂直居中，且父元素的 align-items: center 为不可缺少属性*/
+    display: flex;  
+    align-items: center
+}
+ 
+.flexbox img{
+    width: 500px;
+    align-items: center
+}
+
 table#tlayout {
     border: none;
     border-collapse: separate;
